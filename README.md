@@ -21,9 +21,9 @@ LangEP is a simple Android app that lets you convert speech to text in different
 
 ## 📱 Screenshots
 
-![Screenshot](images/image 1.jpeg)
-![Screenshot](images/image 2.jpeg)
-![Screenshot](images/image 3.jpeg)
+![Screenshot 1](images/image_01.jpeg)
+![Screenshot 2](images/image_02.jpeg)
+![Screenshot 3](images/image_03.jpeg)
 
 ---
 
