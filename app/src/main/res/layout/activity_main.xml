@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MintVoice"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Output Text -->
+    <TextView
+        android:id="@+id/textTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap the mic and start speaking..."
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#1C1C1C"
+        android:padding="16dp"
+        android:elevation="2dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_above="@id/voicebtn" />
+
+    <!-- Mic Button -->
+    <ImageButton
+        android:id="@+id/voicebtn"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:background="@drawable/ripple_mic"
+        android:src="@drawable/ic_mic_mint"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="Mic Button" />
+
+
+
+    <!-- Spinner at Bottom -->
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/spinner_outline_mint"
+        android:popupBackground="#1C1C1C"
+        android:dropDownVerticalOffset="-200dp"/>
+
+
+</RelativeLayout>
