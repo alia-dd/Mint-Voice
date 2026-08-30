@@ -3,23 +3,23 @@ Sure! Here's a clean and simple `README.md` content for your Android voice recog
 
 ---
 
-# 🗣️ LangEP – Language Speech-to-Text App
+# LangEP – Language Speech-to-Text App
 
 LangEP is a simple Android app that lets you convert speech to text in different languages using Android's built-in speech recognition. Just pick a language, tap the mic button, speak, and see your words appear on screen.
 
 ---
 
-## ✨ Features
+## Features
 
-* 🎙️ Voice-to-text functionality using Android's SpeechRecognizer
-* 🌍 Language selection (English, French, Arabic, Finnish, Hindi)
-* 🎛️ Simple and clean user interface
-* 🔒 Handles runtime mic permissions
-* 💬 Instant result display on the screen
+* Voice-to-text functionality using Android's SpeechRecognizer
+* Language selection (English, French, Arabic, Finnish, Hindi)
+* Simple and clean user interface
+* Handles runtime mic permissions
+* Instant result display on the screen
 
 ---
 
-## 📱 Screenshots
+## Screenshots
 
 
 <img src="images/image_2.jpeg" width="400" />
@@ -29,7 +29,7 @@ LangEP is a simple Android app that lets you convert speech to text in different
 
 ---
 
-## 📦 How to Use
+## How to Use
 
 1. Clone the repo or download the ZIP
 2. Open the project in **Android Studio**
@@ -40,7 +40,7 @@ LangEP is a simple Android app that lets you convert speech to text in different
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Java
 * Android SDK
@@ -49,7 +49,7 @@ LangEP is a simple Android app that lets you convert speech to text in different
 
 ---
 
-## 📜 Permissions
+## Permissions
 
 This app needs microphone access to work.
 It will automatically ask for permission when you open it.
@@ -60,7 +60,7 @@ It will automatically ask for permission when you open it.
 
 ---
 
-## 🚧 Notes
+## Notes
 
 * Make sure Google Voice Input is available and enabled on your device
 * Some languages might not be supported on certain devices
@@ -70,4 +70,4 @@ It will automatically ask for permission when you open it.
 
 ## 📄 License
 
-Feel free to use or modify this app for learning or personal projects. No license restrictions. 🙌
+Feel free to use or modify this app for learning or personal projects. No license restrictions.
