@@ -1,73 +1,69 @@
 # Mint-Voice
-Sure! Here's a clean and simple `README.md` content for your Android voice recognition app, written in a casual but professional tone to match your style:
 
----
+![Platform](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
+![Language](https://img.shields.io/badge/language-Java-orange?logo=openjdk&logoColor=white)
+![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 
-# LangEP – Language Speech-to-Text App
-
-LangEP is a simple Android app that lets you convert speech to text in different languages using Android's built-in speech recognition. Just pick a language, tap the mic button, speak, and see your words appear on screen.
-
----
+Mint-Voice is a simple Android app that converts speech to text in multiple languages using Android's built-in `SpeechRecognizer` API. Pick a language, tap the mic, speak, and watch your words appear on screen.
 
 ## Features
 
-* Voice-to-text functionality using Android's SpeechRecognizer
-* Language selection (English, French, Arabic, Finnish, Hindi)
-* Simple and clean user interface
-* Handles runtime mic permissions
-* Instant result display on the screen
-
----
+- Voice-to-text using Android's `SpeechRecognizer`
+- Language selection — English, French, Arabic, Finnish, Hindi
+- Runtime microphone permission handling
+- Instant on-screen result display
+- Simple, clean UI
 
 ## Screenshots
 
+![Screenshot 1](images/image_1.jpeg)
+![Screenshot 2](images/image_2.jpeg)
+![Screenshot 3](images/image_3.jpeg)
 
-<img src="images/image_2.jpeg" width="400" />
-<img src="images/image_1.jpeg" width="400" />
-<img src="images/image_3.jpeg" width="400" />
+## Requirements
 
+- Android Studio (latest stable release recommended)
+- A physical Android device with a working microphone — the emulator's virtual mic is unreliable for speech recognition
+- Google app / Google Voice Input installed and enabled on the device
+- Active internet connection (required by Android's speech recognition service for best accuracy)
 
----
+## Getting Started
 
-## How to Use
-
-1. Clone the repo or download the ZIP
-2. Open the project in **Android Studio**
-3. Run it on a real device (mic is required)
-4. Select your language from the dropdown
-5. Tap the mic button and start speaking
-6. See the text appear instantly!
-
----
-
-## Tech Stack
-
-* Java
-* Android SDK
-* Android SpeechRecognizer API
-* XML (for layouts)
-
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/alia-dd/Mint-Voice.git
+   ```
+2. Open the project in **Android Studio**.
+3. Let Gradle sync finish, then connect a physical device via USB (with USB debugging enabled) or run it directly on your phone.
+4. Build and run the app.
+5. Select a language from the dropdown.
+6. Tap the mic button, speak, and see the transcribed text appear instantly.
 
 ## Permissions
 
-This app needs microphone access to work.
-It will automatically ask for permission when you open it.
+The app requires microphone access and requests it automatically at runtime:
 
 ```xml
 <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 ```
 
----
+## Tech Stack
 
-## Notes
+- **Language:** Java
+- **Platform:** Android SDK
+- **Speech Engine:** Android `SpeechRecognizer` API
+- **UI:** XML layouts
 
-* Make sure Google Voice Input is available and enabled on your device
-* Some languages might not be supported on certain devices
-* Internet connection may be required for best results
+## Notes & Limitations
 
----
+- Requires Google Voice Input to be available and enabled on the device.
+- Language support may vary by device and Android version.
+- An internet connection may be required for accurate recognition results.
 
-## 📄 License
+## Contributing
 
-Feel free to use or modify this app for learning or personal projects. No license restrictions.
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/alia-dd/Mint-Voice/issues) or open a pull request.
+
+## License
+
+This project is licensed under the [Apache-2.0 License](LICENSE).
