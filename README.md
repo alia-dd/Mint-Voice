@@ -16,9 +16,9 @@ Mint-Voice is a simple Android app that converts speech to text in multiple lang
 
 ## Screenshots
 
-![Screenshot 1](images/image_1.jpeg)
-![Screenshot 2](images/image_2.jpeg)
-![Screenshot 3](images/image_3.jpeg)
+<img src="images/image_2.jpeg" width="400" />
+<img src="images/image_1.jpeg" width="400" />
+<img src="images/image_3.jpeg" width="400" />
 
 ## Requirements
 
